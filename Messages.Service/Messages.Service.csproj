@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Messages.Data\Messages.Data.csproj" />
+    <ProjectReference Include="..\Messages.Domain\Messages.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
